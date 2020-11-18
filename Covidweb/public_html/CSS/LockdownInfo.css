@@ -1,0 +1,86 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27 Oct, 2020, 10:34:22 PM
+    Author     : Tanish
+*/
+
+
+h1
+{
+    font-family: tangerine;
+    color: #ffffff;
+    font-size:100px;
+    margin-top: 25px;          
+
+}
+
+p{
+    font-family: 'Syne Mono';font-size: 22px;;
+    color: white;
+}
+
+#container{
+    position     : absolute;
+    width        : 1048px;
+    height       : 4500px;
+    margin-left  : 850px;
+    margin-right : 0px;
+    background-color: #424242;
+}
+
+#heading{
+    position     : absolute;
+    width        : 1000px;
+    height       : 145px;
+    background   : #373737;
+    margin-top   : 20px;
+    margin-left  : 20px;
+
+
+}
+
+#content{
+    position     : absolute;
+    width        : 1000px;
+    height       : 4300px;
+    background   : #373737;
+    margin-left  : 20px;
+    margin-top   : 186px;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #6D6D6D;
+    position: static;
+}
+
+li {
+    float     : left;
+    position  : static;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+    font-size: 30px;
+    position  : static;
+}
+
+li a:hover {
+    background-color: #3F3F3F;
+    font-size: 30px;
+    position  : static;
+}
+
